@@ -1,0 +1,940 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/activity_main" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_1"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_2"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_3"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_4"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_5"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_6"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_7"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_8"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_9"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_10"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_11"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_12"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_13"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_14"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_15"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_16"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_17"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_18"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_19"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_20"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_21"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_22"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_23"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_24"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="decrement"
+                android:text="\uf165"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/trait_25"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="increment"
+                android:text="\uf164"
+                android:fontFamily="@font/font_awesome"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

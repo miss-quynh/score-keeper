@@ -3,6 +3,18 @@
     <!-- Title for the application. [CHAR LIMIT=20] -->
     <string name="app_name">ScoreKeeper</string>
 
+    <!-- Score header. [CHAR LIMIT=20] -->
+    <string name="score_header">Points</string>
+
+    <!-- Current point tracker. [CHAR LIMIT=20] -->
+    <string name="current_score">0</string>
+
+    <!-- Instruction for user. [CHAR LIMIT=NONE] -->
+    <string name="instruction">Below is a list of general positive and negative traits of a person.
+    Rate an aspect that is important to you in determining a potential partner.
+    If a particular trait is more important to you, you can increase it to the appropriate weigh.
+    On the other hand, if you are neutral about a particular trait, you may skip it.</string>
+
     <!-- List of trait 1. [CHAR LIMIT=NONE] -->
     <string name="trait_1">cute smile and laugh</string>
 

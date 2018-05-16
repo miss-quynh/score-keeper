@@ -3,12 +3,59 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    android:alpha="0.76"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="@string/score_header"
+                android:textSize="35sp"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/current_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp"
+                android:layout_alignParentRight="true"
+                android:text="@string/current_score"
+                android:textColor="@android:color/white"
+                android:textSize="35sp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instruction"
+            android:textSize="10sp"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <include layout="@layout/male_traits"/>
+
+    </LinearLayout>
 
 </ScrollView>
