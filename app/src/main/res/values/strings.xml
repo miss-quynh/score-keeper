@@ -1,3 +1,81 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title for the application. [CHAR LIMIT=20] -->
     <string name="app_name">ScoreKeeper</string>
+
+    <!-- List of trait 1. [CHAR LIMIT=NONE] -->
+    <string name="trait_1">cute smile and laugh</string>
+
+    <!-- List of trait 2. [CHAR LIMIT=NONE] -->
+    <string name="trait_2">intelligence</string>
+
+    <!-- List of trait 3. [CHAR LIMIT=NONE] -->
+    <string name="trait_3">family-oriented</string>
+
+    <!-- List of trait 4. [CHAR LIMIT=NONE] -->
+    <string name="trait_4">confidence</string>
+
+    <!-- List of trait 5. [CHAR LIMIT=NONE] -->
+    <string name="trait_5">humble attitude</string>
+
+    <!-- List of trait 6. [CHAR LIMIT=NONE] -->
+    <string name="trait_6">self-driven and ambitious</string>
+
+    <!-- List of trait 7. [CHAR LIMIT=NONE] -->
+    <string name="trait_7">amazing scent</string>
+
+    <!-- List of trait 8. [CHAR LIMIT=NONE] -->
+    <string name="trait_8">good mannerisms</string>
+
+    <!-- List of trait 9. [CHAR LIMIT=NONE] -->
+    <string name="trait_9">kind and caring</string>
+
+    <!-- List of trait 10. [CHAR LIMIT=NONE] -->
+    <string name="trait_10">stable career</string>
+
+    <!-- List of trait 11. [CHAR LIMIT=NONE] -->
+    <string name="trait_11">good hygiene</string>
+
+    <!-- List of trait 12. [CHAR LIMIT=NONE] -->
+    <string name="trait_12">college educated</string>
+
+    <!-- List of trait 13. [CHAR LIMIT=NONE] -->
+    <string name="trait_13">outgoing and amicable</string>
+
+    <!-- List of trait 14. [CHAR LIMIT=NONE] -->
+    <string name="trait_14">plays a sport</string>
+
+    <!-- List of trait 15. [CHAR LIMIT=NONE] -->
+    <string name="trait_15">foodie</string>
+
+    <!-- List of trait 16. [CHAR LIMIT=NONE] -->
+    <string name="trait_16">avid reader</string>
+
+    <!-- List of trait 17. [CHAR LIMIT=NONE] -->
+    <string name="trait_17">likes to travel</string>
+
+    <!-- List of trait 18. [CHAR LIMIT=NONE] -->
+    <string name="trait_18">picky eater</string>
+
+    <!-- List of trait 19. [CHAR LIMIT=NONE] -->
+    <string name="trait_19">wants children</string>
+
+    <!-- List of trait 20. [CHAR LIMIT=NONE] -->
+    <string name="trait_20">rich</string>
+
+    <!-- List of trait 21. [CHAR LIMIT=NONE] -->
+    <string name="trait_21">smokes</string>
+
+    <!-- List of trait 22. [CHAR LIMIT=NONE] -->
+    <string name="trait_22">does drugs</string>
+
+    <!-- List of trait 23. [CHAR LIMIT=NONE] -->
+    <string name="trait_23">has child(ren)</string>
+
+    <!-- List of trait 24. [CHAR LIMIT=NONE] -->
+    <string name="trait_24">lives at home</string>
+
+    <!-- List of trait 25. [CHAR LIMIT=NONE] -->
+    <string name="trait_25">tattooed up</string>
+
 </resources>
